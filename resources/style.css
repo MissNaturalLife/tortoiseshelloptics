@@ -1,0 +1,23 @@
+html{
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+header{
+	margin-top: 1rem;
+	background-color: cadetblue;
+	color: white;
+	display: inline-flex;
+
+}
+
+header img{
+	height: 1.5rem;
+	margin-left: 2rem;
+	margin-right: 1rem;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
