@@ -8,7 +8,8 @@ header{
 	background-color: cadetblue;
 	color: white;
 	display: inline-flex;
-
+	padding-top: 1rem;
+	align-content: center;
 }
 
 header img{
@@ -17,7 +18,34 @@ header img{
 	margin-right: 1rem;
 }
 
+.site{
+	width: 960px;
+	margin: 0 auto;
+}
+
 .container{
 	width: 960px;
 	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-right{
+	display: inline-flex;
+	justify-content: flex-end;
+	padding-right: 2rem;
+	margin: 1rem;
+}
+
+.header-item{
+	padding-right: 1rem;
+}
+
+.banner{
+	height: 30rem;
+	z-index: 1;
+	background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
 }
