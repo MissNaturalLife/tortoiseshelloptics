@@ -27,6 +27,18 @@
 	.banner{
 		height: 17rem;
 	}
+
+	.small-img-text p{
+		font-size: 0.77rem;
+	}
+
+	.bottom p{
+		font-size: 0.77rem;
+	}
+
+	.footer-text span{
+		display: none;
+	}
 }
 
 html{
