@@ -8,13 +8,17 @@
 	}
 
 	.banner-text{
-		padding-right: 4rem;
 		padding-left: 4rem;
 		padding-top: 0.75rem;
 		padding-bottom: 0.75rem;
 		font-size: 1.33rem;
 		margin-top: 5rem;
 		margin-right: 2rem;
+		max-width: 17rem;
+	}
+
+	.banner-text h1{
+		font-size: 1.33rem;
 	}
 }
 
@@ -28,6 +32,10 @@
 		height: 17rem;
 	}
 
+	.banner-text h1{
+		font-size: 1rem;
+	}
+
 	.small-img-text p{
 		font-size: 0.77rem;
 	}
@@ -38,6 +46,10 @@
 
 	.footer-text span{
 		display: none;
+	}
+
+	.small-img-items{
+		display: block;
 	}
 }
 
